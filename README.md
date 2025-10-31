@@ -2,6 +2,9 @@
 
 A smart voice recorder application for Android that records audio, transcribes it using AI, and provides a structured summary of the conversation. This project was built as a take-home assignment, demonstrating robust engineering and handling of real-world edge cases.
 
+## APK (Debug Build)
+The APK can be found on: [Download APK](VoiceRecorderAI-Submission/VoiceRecorderAI-debug.apk)
+
 ## Live Demo
 
 A screen recording demonstrating the complete app flow is provided below:
