@@ -142,3 +142,6 @@ lint-results.xml
 api_keys.properties
 secrets.properties
 
+# Allow committing the submission debug APK (but keep other APKs ignored)
+!VoiceRecorderAI-Submission/
+!VoiceRecorderAI-Submission/VoiceRecorderAI-debug.apk
