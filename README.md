@@ -4,7 +4,18 @@ A smart voice recorder application for Android that records audio, transcribes i
 
 ## Live Demo
 
-A screen recording demonstrating the complete app flow is available here: [Video Walkthrough](https://www.youtube.com/watch?v=your-video-id)
+A screen recording demonstrating the complete app flow is provided below:
+
+### Example of how Recording/Transcribing and Summarization Works
+
+https://github.com/user-attachments/assets/30416a70-494f-4549-9400-bc7d43f5d15b
+
+### Example of Summary Page
+ 
+
+https://github.com/user-attachments/assets/cd2eace5-70df-46bb-9b8b-b951c279b296
+
+
 
 ## Key Features
 
