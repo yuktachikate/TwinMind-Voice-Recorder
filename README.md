@@ -7,13 +7,13 @@ A smart voice recorder application for Android that records audio, transcribes i
 A screen recording demonstrating the complete app flow is provided below:
 
 #### Note, this is the context I used for my demo
-```
-In the vast, blue world of One Piece, the seas whisper of a treasure beyond imagination: the "One Piece," left behind by the legendary Pirate King, Gol D. Roger. This treasure sparked the "Great Pirate Era," sending dreamers across the deadly Grand Line.
+
+_In the vast, blue world of One Piece, the seas whisper of a treasure beyond imagination: the "One Piece," left behind by the legendary Pirate King, Gol D. Roger. This treasure sparked the "Great Pirate Era," sending dreamers across the deadly Grand Line.
 Our story follows Monkey D. Luffy, a rubber-bodied boy with an unshakeable grin and an iron will. His ambition isn't for gold, but for freedom—to sail the most dangerous seas, live the most thrilling adventure, and become the next Pirate King.
 Luffy assembles a colorful crew: Zoro, the stoic, three-sword-wielding swordsman; Nami, the clever, treasure-loving navigator; Usopp, the brave liar and sharpshooter; and Sanji, the chivalrous, fire-legged cook. Together, they are the Straw Hat Pirates, a found family of misfits sailing a small ship called the Going Merry, later the sturdier Thousand Sunny.
 Their journey is a saga of incredible highs and heartbreaking lows. They face colossal Sea Kings, powerful Marines, tyrannical World Nobles, and rival pirate crews. They liberate islands from oppression, protect ancient Poneglyphs that tell a forgotten history, and confront their deepest fears.
-From the floating sky-island of Skypiea to the frigid battlefield of Marineford, where Luffy witnesses the tragic loss of his brother Ace, their adventure is a testament to resilience. It's a tale that proves that the greatest treasure isn't just gold; it's the bonds of friendship, the courage to chase a dream against all odds, and the freedom to chart your own course in a world that tries to control you. Their voyage continues, one epic arc at a time, echoing Roger's final challenge: "Find it if you can."
-```
+From the floating sky-island of Skypiea to the frigid battlefield of Marineford, where Luffy witnesses the tragic loss of his brother Ace, their adventure is a testament to resilience. It's a tale that proves that the greatest treasure isn't just gold; it's the bonds of friendship, the courage to chase a dream against all odds, and the freedom to chart your own course in a world that tries to control you. Their voyage continues, one epic arc at a time, echoing Roger's final challenge: "Find it if you can."_
+
 
 ### Example of how Recording/Transcribing and Summarization Works
 
