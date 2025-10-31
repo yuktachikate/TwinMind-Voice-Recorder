@@ -19,6 +19,7 @@ release/
 .gradle/
 build/
 */build/
+.kotlin/
 
 # Local configuration file (sdk path, etc)
 local.properties
@@ -49,6 +50,54 @@ render.experimental.xml
 # External native build folder generated in Android Studio 2.2 and later
 .externalNativeBuild
 .cxx/
+
+# OS-specific files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Temporary markdown files (in-process documentation)
+ADAPTIVE_ICON_FIX.md
+ALL_ERRORS_FIXED.md
+ALL_THREE_ISSUES_FIXED.md
+API_SETUP_GUIDE.md
+BUILD_CONFIG_FIX.md
+BUILD_FIX_GUIDE.md
+BUILD_FIXED.md
+BUILD_ISSUE_RESOLVED.md
+CRITICAL_EDGE_CASES_IMPLEMENTED.md
+CRITICAL_FIXES_FINAL.md
+FINAL_FIXES.md
+FINAL_STATUS.md
+FIX_NOW_DELETE_OLD_ICONS.md
+FIXES_APPLIED.md
+GRADLE_SYNC_FIX.md
+HILT_FIX.md
+IMPLEMENTATION.md
+ISSUES_FIXED.md
+LOADING_SCREEN_ADDED.md
+LOCK_SCREEN_TIMER_IMPLEMENTED.md
+NAVIGATION_FIX_FINAL.md
+OPENAI_INTEGRATION_COMPLETE.md
+PLUGIN_FIX.md
+PROJECT_COMPLETE.md
+REAL_API_INTEGRATION.md
+REQUIREMENTS_AUDIT.md
+REQUIREMENTS_CHECKLIST.md
+SAMPLE_RATE_FIX.md
+SUBMISSION.md
+TRANSCRIPTION_AND_NAV_FIX.md
+TRANSCRIPTION_FIX.md
+TROUBLESHOOTING.md
+UI_AUDIO_FIXES.md
+
+# Build scripts (keep these commented if you want to include them)
+# build.sh
+# fix_build.sh
 
 # Google Services (e.g. APIs or Firebase)
 google-services.json
