@@ -1,13 +1,15 @@
 package com.example.voicerecorderai.di
 
+import android.content.Context
 import android.util.Log
-import com.example.voicerecorderai.BuildConfig
 import com.example.voicerecorderai.data.remote.MockApiService
 import com.example.voicerecorderai.data.remote.OpenAIApiService
 import com.example.voicerecorderai.data.remote.VoiceApi
+import com.example.voicerecorderai.util.SecureConfig
 import dagger.Module
 import dagger.Provides
 import dagger.hilt.InstallIn
+import dagger.hilt.android.qualifiers.ApplicationContext
 import dagger.hilt.components.SingletonComponent
 import javax.inject.Singleton
 
@@ -19,12 +21,12 @@ object NetworkModule {
 
     @Provides
     @Singleton
-    fun provideVoiceApi(): VoiceApi {
+    fun provideVoiceApi(@ApplicationContext context: Context): VoiceApi {
         return try {
-            // Check if OpenAI API key is configured
-            val apiKey = BuildConfig.OPENAI_API_KEY
+            // Load API key at runtime from assets (not embedded in BuildConfig)
+            val apiKey = SecureConfig.getOpenAIApiKey(context)
 
-            if (apiKey.isNotEmpty() && apiKey != "YOUR_API_KEY_HERE") {
+            if (!apiKey.isNullOrEmpty() && apiKey != "YOUR_API_KEY_HERE") {
                 Log.d(TAG, "Using OpenAI API Service (Real API)")
                 OpenAIApiService(apiKey)
             } else {

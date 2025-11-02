@@ -1,5 +1,3 @@
-import com.android.build.gradle.internal.cxx.configure.gradleLocalProperties
-
 plugins {
     alias(libs.plugins.android.application)
     alias(libs.plugins.kotlin.android)
@@ -21,11 +19,8 @@ android {
 
         testInstrumentationRunner = "androidx.test.runner.AndroidJUnitRunner"
 
-        // Load OpenAI API key from local.properties
-        val localProperties = gradleLocalProperties(rootDir, providers)
-        val apiKey = localProperties.getProperty("openai.api.key") ?: ""
-
-        buildConfigField("String", "OPENAI_API_KEY", "\"$apiKey\"")
+        // DO NOT embed API keys in BuildConfig - they will be visible in decompiled APK
+        // API key should be loaded at runtime from secure storage or backend
     }
 
     buildTypes {

@@ -86,14 +86,17 @@ The app goes beyond transcription to provide actionable insights from the conver
 2.  **Open in Android Studio**
     Open the project in the latest version of Android Studio.
 
-3.  **Add API Key**
-    Create a `local.properties` file in the root directory and add your API key:
-    ```
-    sdk.dir=<path-to-your-android-sdk>
-    openai.api.key=<openai-your-api-key>
-    ```
+3.  **Add API Key (Secure Method)**
+    
+    **Option A: Using Assets (Recommended for Development)**
+    - Copy the template: `cp app/src/main/assets/api_config.properties.template app/src/main/assets/api_config.properties`
+    - Edit `app/src/main/assets/api_config.properties` and replace `YOUR_API_KEY_HERE` with your OpenAI API key
+    
+    **Option B: Without API Key**
+    - The app will automatically use a mock service for testing without a real API key
+    
 4.  **Build and Run**
-    Build the project and run it on an Android device or emulator (API 24+).
+    Build the project and run it on an Android device or emulator (API 26+).
 
 ## Contributing
 

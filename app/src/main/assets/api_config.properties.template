@@ -1,0 +1,8 @@
+# API Configuration File
+# This file is loaded at runtime and should NOT be committed to version control
+#
+# Copy this file to: app/src/main/assets/api_config.properties
+# And replace YOUR_API_KEY_HERE with your actual OpenAI API key
+
+openai.api.key=YOUR_API_KEY_HERE
+
