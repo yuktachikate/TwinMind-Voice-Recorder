@@ -86,7 +86,7 @@ The app goes beyond transcription to provide actionable insights from the conver
 
 1.  **Clone the Repository**
     ```bash
-    git clone https://github.com/your-username/voicerecorderai.git
+    git clone https://github.com/yuktachikate/voicerecorderai.git
     ```
 2.  **Open in Android Studio**
     Open the project in the latest version of Android Studio.
